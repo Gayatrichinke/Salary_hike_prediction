@@ -60,7 +60,7 @@ mse1 = np.mean(res_sqr1)
 rmse1 = np.sqrt(mse1)
 rmse1
 
-# error = 5592.043608760661
+
 
 
 
@@ -90,9 +90,7 @@ rmse2 = np.sqrt(mse2)
 rmse2
 
 
-# not correct
 
-# error = 10302.893706228308
 
 
 #### Exponential transformation
@@ -120,8 +118,6 @@ res_sqr3 = res3 * res3
 mse3 = np.mean(res_sqr3)
 rmse3 = np.sqrt(mse3)
 rmse3
-
-# error = 7213.235076620129
 
 
 
@@ -185,7 +181,7 @@ test_mse = np.mean(test_sqrs)
 test_rmse = np.sqrt(test_mse)
 test_rmse
 
-# error = 7274.531679945997
+
 
 # Prediction on train data
 train_pred = finalmodel.predict(pd.DataFrame(train))
@@ -198,5 +194,3 @@ train_sqrs = train_res * train_res
 train_mse = np.mean(train_sqrs)
 train_rmse = np.sqrt(train_mse)
 train_rmse
-
-#Error = 4885.785578064487
